@@ -163,7 +163,22 @@ body {
 
 @media screen and (max-width: 290px) {
     .card {
+        position: static;
+        top: 0;
+        left: 0;
+        transform: none;
         width: 100%;
-        margin-top: 3rem;
+    }
+
+    .card-info-title {
+        font-size: 20px;
+    }
+
+    .card-info-subtitle {
+        font-size: 12px;
+    }
+
+    .card-info-text {
+        font-size: 9px;
     }
 }
